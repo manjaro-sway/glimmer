@@ -7,7 +7,7 @@ arch=('x86_64' 'aarch64')
 url="https://github.com/moustacheful/glimmer.git"
 license=('MIT')
 depends=()
-makedepends=('cargo' 'pango' 'gdk-pixbuf2')
+makedepends=('cargo' 'pango' 'gdk-pixbuf2' 'atkmm')
 source=("$pkgname-$pkgver.tar.gz::https://static.crates.io/crates/$pkgname/$pkgname-$pkgver.crate")
 
 sha256sums=('72882ef12f3c39a4352db5ff4ccf9fd6ca9f51d44d22a30422ff51c8838789f7')
