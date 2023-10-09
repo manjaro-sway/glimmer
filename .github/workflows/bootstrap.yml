@@ -15,4 +15,5 @@ jobs:
           token: ${{ secrets.BOOTSTRAP_WORKFLOWS || github.token }}
       - id: bootstrap
         uses: manjaro-contrib/action-bootstrap-actions@main
-
+        with:
+          upstream: 
